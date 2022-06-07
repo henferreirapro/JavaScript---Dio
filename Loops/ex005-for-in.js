@@ -19,5 +19,5 @@ const cadastro = {
     profissão: "Dev Full Stack"
 }
 
-console.log(classesListas(cadastro));
-console.log(valoresCadastro(cadastro));
+classesListas(cadastro);
+valoresCadastro(cadastro);

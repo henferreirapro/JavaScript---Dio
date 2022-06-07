@@ -6,4 +6,4 @@ function separador(palavra) {
 
 const palavra = "mundo";
 
-console.log(separador(palavra));
+separador(palavra);
