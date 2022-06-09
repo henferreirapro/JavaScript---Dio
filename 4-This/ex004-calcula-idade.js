@@ -28,5 +28,5 @@ function calculaIdade(anos) {
     return `Daqui a ${anos} anos, ${this.nome} terá ${this.idade + anos} anos de idade.`;
 }
 
-console.log(calculaIdade.call(pessoa1, 20));
+console.log(calculaIdade.call(pessoa2, 20));
 console.log(calculaIdade.apply(animal1, [14]));
